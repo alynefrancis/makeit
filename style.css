@@ -1,0 +1,138 @@
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+	background-color:#E4E8F6;
+	/*font-family: 'Walter Turncoat', cursive;*/
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+#video_container,
+#listen,
+#newSearch,
+.secondheading {
+	display:none;	
+}
+
+.changeLayout {
+	background-color: #6681CC;
+	-webkit-transition: all .9s ease-in;
+}
+.changeLayout .firstPage {
+	display:none;
+}
+.changeLayout #video_container,
+.changeLayout #video_container form,
+.changeLayout #listen,
+.changeLayout #newSearch,
+.changeLayout .secondheading{
+	width: 80%;
+	height: 100%;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 10%;
+}
+.changeLayout .firstheading,
+.changeLayot h4 {
+	display: none;
+}
+.changeLayout #newSearch {	
+	width: 30%;
+	margin: 20px 35%;
+	
+}
+
+h1, h2, h4 {
+	text-align: center;
+	font-family: arial;
+	font-size: 110px;
+	font-family: 'Chelsea Market', cursive;
+	font-style: bold;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+h2 {
+	font-size: 30px;
+}
+h4 {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.form {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+
+}
+.form #search {
+	padding: 13px;
+	margin: 10px;
+	border: 1px black;	
+	border-radius: 5px;
+}
+
+.form h2, 
+.form h3,
+.form h4 {
+	display: inline;
+	margin-bottom: 20px;
+}
+.form #submit,
+.form #tryAgain,
+.form #listenBtn,
+#newSearch {
+	padding: 10px;
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+	font-family: 'Chelsea Market', cursive;
+	font-size: 20px;
+}
+
+.form input {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 20px;
+} 
+
+span {
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Chelsea Market', cursive;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+.music_div,
+.tryAgain_div {
+width: 50%;
+float: left;
+margin-top: 15px;
+padding: 20px;
+}
+
+#newSearch a {
+	text-decoration: none;
+	color: red;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+

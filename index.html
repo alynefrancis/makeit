@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>API Fun</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Walter+Turncoat|Open+Sans|Chelsea+Market' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+  <h1 class='firstheading'>Show me how!</h1>
+  <h1 class='secondheading'>I'm going to make this!</h1>
+
+  <div class="firstPage">
+    <form class="form" action="">
+      <h2>I want to make a:</h2>
+
+        <input type="search" id="search" name="searchBox" placeholder=" What?">
+        <input type="submit" name ="submitBtn" value="go!" id="submit">
+       <br>
+       <br>
+     <!--   <h4>(be specific)</h4> -->
+    </form>
+  </div> <!-- firstpage -->
+
+  <div id="video_container"></div> <!-- video -->
+
+  <div id ="listen">
+   <h2>Awesome, this looks fun!</h2>
+    <form class ="form" action="">
+
+      <div class="music_div" class="clearfix">
+        <h3>Now why not listen to some inspirational music while you make your <span class="song_title"></span><span>!</span></h3>
+        <br>
+        <input type="submit" name ="listenBtn" value="Listen!" id="listenBtn">
+      
+    </div> <!-- music -->
+    </form>
+
+    <div class="tryAgain_div" class="clearfix">
+      <form class ="form" action="">
+       <h3>This actually doesn't look fun at all! This video sucks, and I want one more search. </h3>
+       <br>
+       <input type="submit" name ="tryAgain" value="Search Again!" id="tryAgain">
+      </form>
+    </div> <!-- tryAgain_div -->
+
+  </div> <!-- listen -->
+  <button id="newSearch"><a href="index.html">Changed my mind, <br>I want to start over</a></button>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="you_tubeapp_rebuild.js"></script>
+</body>
+</html>
