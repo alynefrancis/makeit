@@ -48,7 +48,7 @@ buildIt.getVideo = function(concat){
 
 buildIt.showVideo = function(watch){
 	console.log('show video its getting ' + watch);
-	$('#video_container').html('<object width="100%" height="500px"><param name="movie" value="https://www.youtube.com/v/'+watch+'?version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/'+watch+'?version=3" type="application/x-shockwave-flash" width="100%" height="500px" allowscriptaccess="always" allowfullscreen="true"></embed></object>');
+	$('#video_container').html('<object width="100%" height="500px"><param name="movie" value="https://www.youtube.com/v/'+watch+'?version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/'+watch+'?version=3" type="application/x-shockwave-flash" width="800px" height="100%" allowscriptaccess="always" allowfullscreen="true"></embed></object>');
 },
 
 buildIt.getSong = function(songConcat){
